@@ -1,0 +1,71 @@
+.item {
+    width: 150px;
+    height: 200px;
+    padding: 0 0.8rem 0.8rem 0.8rem;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .item img {
+    height: 130px;
+    object-fit: contain;
+  }
+  .item-foot_desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* .item-head_desc p {
+   background-color: #000;
+  } */
+  
+  .item-foot_desc button {
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+  }
+  .item-head_desc {
+    text-align: left;
+    flex: 1;
+    margin-bottom: 0.5rem;
+    flex-direction: column;
+  }
+  
+  .head_desc-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    flex: 1;
+  }
+  .head_desc-info {
+    font-size: 0.8rem;
+    color: #a0a0a0;
+  }
+  .foot_desc-price {
+    font-weight: 700;
+  }
+
+  .btnAddRemove {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 0.3rem;
+    cursor: pointer;
+    font-size: 0.6rem;
+    background: #000;
+    color: #fff;
+  }
+  .btnAddRemove-positive,
+  .btnAddRemove-negative {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
